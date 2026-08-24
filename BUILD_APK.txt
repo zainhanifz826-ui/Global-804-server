@@ -1,0 +1,11 @@
+GLOBAL 804 Android project
+
+1. Open this folder in Android Studio.
+2. In MainActivity.java replace:
+   https://YOUR-GLOBAL-804-DOMAIN/
+   with the HTTPS URL where server.js is deployed.
+3. Sync Gradle.
+4. Build > Build APK(s).
+
+Important: the current web app uses WebRTC and the server's signaling layer.
+For production mobile calls, deploy the server over HTTPS/WSS and configure a TURN server.
