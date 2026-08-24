@@ -1,0 +1,9 @@
+{
+  "name": "GLOBAL 804",
+  "short_name": "GLOBAL 804",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7faf8",
+  "theme_color": "#ffffff",
+  "icons": []
+}
